@@ -23,6 +23,7 @@ public class Q1 {
     // UTF-16 uses a maximum of two 16 bit code units to store chars.
     // So we could store all the information we need in a 32 bit int.
     // Each bit representing whether that char has been encountered.
+    // n = length of the string
     // Space: O(1)
     // Time: O(n)
     public static boolean isUniqueCharsBits(String string) {
