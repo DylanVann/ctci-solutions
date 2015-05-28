@@ -22,9 +22,18 @@ public class Q1Test {
     public void testIsUniqueCharsBits() {
         assertEquals(true, Q1.isUniqueCharsBits("True."));
         assertEquals(false, Q1.isUniqueCharsBits("False..."));
-        // Handles all unicode characters.
+        // Does not work for unicode characters.
         assertEquals(true, Q1.isUniqueCharsBits("●︵•"));
-        assertEquals(false, Q1.isUniqueCharsBits("ಠ_ಠ"));
+        assertNotEquals(false, Q1.isUniqueCharsBits("ಠ_ಠ"));
+    }
+
+    @Test
+    public void testIsUniqueCharsSet() {
+        assertEquals(true, Q1.isUniqueCharsSet("True."));
+        assertEquals(false, Q1.isUniqueCharsSet("False..."));
+        // Handles all unicode characters.
+        assertEquals(true, Q1.isUniqueCharsSet("●︵•"));
+        assertEquals(false, Q1.isUniqueCharsSet("ಠ_ಠ"));
     }
 
 }
