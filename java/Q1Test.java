@@ -13,8 +13,9 @@ public class Q1Test {
         // ASCII
         assertEquals(true, Q1.isUniqueChars("True."));
         assertEquals(false, Q1.isUniqueChars("False..."));
-        exception.expect(ArrayIndexOutOfBoundsException.class);
         // Doesn't handle other characters very well ಠ_ಠ.
+        // Throws IndexOutOfBoundsException.
+        exception.expect(ArrayIndexOutOfBoundsException.class);
         assertEquals(false, Q1.isUniqueChars("ಠ_ಠ"));
     }
 
