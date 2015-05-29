@@ -30,8 +30,11 @@ public class Q3 {
             int j;
             // Check all previous chars.
             for (j = 0 ; j < end ; j++) {
-                // Break if duplicate is encountered.
-                if (chars[i] == chars[j]) break;
+                if (chars[i] == chars[j]) {
+                    // Break if duplicate is encountered. In the next loop we look at the next character.
+                    // If it's unique then it will be added in the place of this duplicate.
+                    break;
+                }
             }
             // If no duplicate was encountered.
             if (j == end) {
@@ -59,7 +62,7 @@ public class Q3 {
      * @param str The character array to remove duplicates from.
      * @return The new character array, with duplicate characters removed.
      */
-    public static String removeDuplicateCharactersSet(String str) {
+    public static String removeDuplicateCharacters_Set(String str) {
         char[] chars = str.toCharArray();
         int length = chars.length;
         // Definitely no duplicates if length < 2.

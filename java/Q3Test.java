@@ -1,23 +1,13 @@
 import org.junit.Test;
 
-import java.lang.reflect.Method;
-
 import static org.junit.Assert.*;
 
 public class Q3Test {
 
-    /**
-     * Interface with a function to remove duplicate characters.
-     */
     public interface RemoveDuplicateCharacters {
-        public String removeDuplicateCharacters(String str);
+        String removeDuplicateCharacters(String str);
     }
 
-    /**
-     * JUnit tests if a function removes duplicate characters correctly.
-     *
-     * @param removeFunction Function that removes duplicate characters.
-     */
     public void testRemoveDuplicateCharacters(RemoveDuplicateCharacters removeFunction) {
         assertEquals("abcdefg", removeFunction.removeDuplicateCharacters("abccdeefg"));
         assertEquals("abcd", removeFunction.removeDuplicateCharacters("abcd"));
@@ -32,8 +22,8 @@ public class Q3Test {
     }
 
     @Test
-    public void testRemoveDuplicateCharactersSet() throws Exception {
-        testRemoveDuplicateCharacters(Q3::removeDuplicateCharactersSet);
+    public void testRemoveDuplicateCharacters_Set() throws Exception {
+        testRemoveDuplicateCharacters(Q3::removeDuplicateCharacters_Set);
     }
 
 }
