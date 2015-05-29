@@ -64,4 +64,15 @@ public class LinkedListNode {
 		}
 		return intArray;
 	}
+
+	public int length() {
+		int length = 1;
+		LinkedListNode node = this;
+		while (node.next != null) {
+			node = node.next;
+			length++;
+		}
+		return length;
+	}
+
 }
