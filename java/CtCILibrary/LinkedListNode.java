@@ -1,5 +1,7 @@
 package CtCILibrary;
 
+import java.util.ArrayList;
+
 public class LinkedListNode {
 	public LinkedListNode next;
 	public LinkedListNode prev;
@@ -45,5 +47,21 @@ public class LinkedListNode {
 		}
 		LinkedListNode head2 = new LinkedListNode(data, next2, null);
 		return head2;
+	}
+
+	public int[] toIntArray() {
+		ArrayList<Integer> intArrayList = new ArrayList<Integer>();
+		LinkedListNode node = this;
+		while (node.next != null) {
+			intArrayList.add(node.data);
+			node = node.next;
+		}
+		int[] intArray = new int[intArrayList.size()];
+		int i = 0;
+		for (Integer n : intArrayList) {
+			intArray[i] = n;
+			i++;
+		}
+		return intArray;
 	}
 }
