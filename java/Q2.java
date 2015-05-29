@@ -24,10 +24,11 @@ public class Q2 {
 
     /**
      * The easy way.
+     *
      * @param string The string to be reversed.
      * @return The reversed string.
      */
-    public static String reverseStringBuilder(String string) {
+    public static String reverseString_Builder(String string) {
         StringBuilder builder = new StringBuilder(string);
         return builder.reverse().toString();
     }

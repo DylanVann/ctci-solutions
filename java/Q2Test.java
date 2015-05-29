@@ -12,10 +12,10 @@ public class Q2Test {
     }
 
     @Test
-    public void testReverseStringBuilder() {
-        assertEquals("", Q2.reverseStringBuilder(""));
-        assertEquals("a", Q2.reverseStringBuilder("a"));
-        assertEquals("Reversed.", Q2.reverseStringBuilder(".desreveR"));
+    public void testReverseString_Builder() {
+        assertEquals("", Q2.reverseString_Builder(""));
+        assertEquals("a", Q2.reverseString_Builder("a"));
+        assertEquals("Reversed.", Q2.reverseString_Builder(".desreveR"));
     }
 
 }
