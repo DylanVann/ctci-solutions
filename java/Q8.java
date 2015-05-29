@@ -25,7 +25,10 @@ public class Q8 {
      * Doesn't use isSubstring, but also doesn't use extra space.
      *
      * Time: O(n)
+     *
      * Space: O(1)
+     * Technically O(n), since the strings are copied to char arrays.
+     * The function could be rewritten to take char arrays as inputs though.
      *
      * @param a String a.
      * @param b String b.
