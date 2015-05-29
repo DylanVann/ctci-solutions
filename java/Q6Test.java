@@ -1,3 +1,4 @@
+import CtCILibrary.AssortedMethods;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -25,17 +26,17 @@ public class Q6Test {
         rotateMatrix90.rotate90(outputMatrix);
 
         System.out.println("Input:");
-        printMatrix(inputMatrix);
+        AssortedMethods.printMatrix(inputMatrix);
         System.out.println();
         System.out.println();
 
         System.out.println("Expected output:");
-        printMatrix(expectedOutputMatrix);
+        AssortedMethods.printMatrix(expectedOutputMatrix);
         System.out.println();
         System.out.println();
 
         System.out.println("Output:");
-        printMatrix(outputMatrix);
+        AssortedMethods.printMatrix(outputMatrix);
         System.out.println();
         System.out.println();
 
@@ -45,15 +46,6 @@ public class Q6Test {
     @Test
     public void testRotateMatrix90_InPlace() throws Exception {
         testRotateMatrix90(Q6::rotateMatrix90_InPlace);
-    }
-
-    private static void printMatrix(int[][] a) {
-        for (int[] row : a) {
-            for (int col : row) {
-                System.out.print(col + " ");
-            }
-            System.out.println();
-        }
     }
 
 }
