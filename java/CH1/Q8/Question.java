@@ -1,4 +1,6 @@
-public class Q8 {
+package CH1.Q8;
+
+public class Question {
 
     /**
      * Concatenates a copy of a to a, then checks if b is a substring.

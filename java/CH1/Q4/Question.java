@@ -1,7 +1,8 @@
-import java.lang.reflect.Array;
+package CH1.Q4;
+
 import java.util.Arrays;
 
-public class Q4 {
+public class Question {
 
 
     /**

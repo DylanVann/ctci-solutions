@@ -1,4 +1,6 @@
-public class Q6 {
+package CH1.Q6;
+
+public class Question {
 
     /**
      * Rotates a square matrix 90 degrees in place. CCW.

@@ -1,10 +1,10 @@
-import org.junit.Rule;
+package CH1.Q8;
+
 import org.junit.Test;
-import org.junit.rules.TestRule;
 
 import static org.junit.Assert.*;
 
-public class Q8Test {
+public class QuestionTest {
 
     interface IsRotation {
         boolean isRotation(String a, String b);
@@ -17,12 +17,12 @@ public class Q8Test {
 
     @Test
     public void testIsRotation() {
-        testIsRotation(Q8::isRotation);
+        testIsRotation(Question::isRotation);
     }
 
     @Test
     public void testIsRotation_Contains() {
-        testIsRotation(Q8::isRotation_Contains);
+        testIsRotation(Question::isRotation_Contains);
     }
 
 }

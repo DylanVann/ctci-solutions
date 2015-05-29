@@ -1,8 +1,10 @@
+package CH1.Q1;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Q1 {
+public class Question {
 
     /**
      * Uses a boolean array to handle all ASCII characters.

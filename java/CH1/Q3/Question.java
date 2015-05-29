@@ -1,7 +1,9 @@
+package CH1.Q3;
+
 import java.util.HashSet;
 import java.util.Set;
 
-public class Q3 {
+public class Question {
 
 
     /**
@@ -54,7 +56,7 @@ public class Q3 {
     }
 
     /**
-     * We can use the same method used in {@link Q1#isUniqueCharsSet(String)} to get O(n) time.
+     * We can use the same method used in {@link Question#isUniqueCharsSet(String)} to get O(n) time.
      *
      * Time: O(n)
      * Space: O(n)

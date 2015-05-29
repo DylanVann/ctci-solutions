@@ -1,4 +1,6 @@
-public class Q5 {
+package CH1.Q5;
+
+public class Question {
 
     /**
      * Replaces spaces with %02.

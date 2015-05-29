@@ -1,7 +1,10 @@
+package CH1.Q4;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-public class Q4Test {
+
+public class QuestionTest {
 
     interface AreAnagrams {
         boolean areAnagrams(String a, String b);
@@ -15,12 +18,12 @@ public class Q4Test {
 
     @Test
     public void testAreAnagrams_Sort() throws Exception {
-        testAreAnagrams(Q4::areAnagrams_Sort);
+        testAreAnagrams(Question::areAnagrams_Sort);
     }
 
     @Test
     public void testAreAnagrams_Array() throws Exception {
-        testAreAnagrams(Q4::areAnagrams_Array);
+        testAreAnagrams(Question::areAnagrams_Array);
     }
 
 }

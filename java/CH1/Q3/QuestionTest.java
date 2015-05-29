@@ -1,8 +1,10 @@
+package CH1.Q3;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Q3Test {
+public class QuestionTest {
 
     public interface RemoveDuplicateCharacters {
         String removeDuplicateCharacters(String str);
@@ -18,12 +20,12 @@ public class Q3Test {
 
     @Test
     public void testRemoveDuplicateCharacters() throws Exception {
-        testRemoveDuplicateCharacters(Q3::removeDuplicateCharacters);
+        testRemoveDuplicateCharacters(Question::removeDuplicateCharacters);
     }
 
     @Test
     public void testRemoveDuplicateCharacters_Set() throws Exception {
-        testRemoveDuplicateCharacters(Q3::removeDuplicateCharacters_Set);
+        testRemoveDuplicateCharacters(Question::removeDuplicateCharacters_Set);
     }
 
 }

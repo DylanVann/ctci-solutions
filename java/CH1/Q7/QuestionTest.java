@@ -1,9 +1,11 @@
+package CH1.Q7;
+
 import CtCILibrary.AssortedMethods;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Q7Test {
+public class QuestionTest {
 
     @Test
     public void testSetZeros() throws Exception {
@@ -26,7 +28,7 @@ public class Q7Test {
                 {5,8,3,6}
         };
 
-        Q7.setZeros(output);
+        Question.setZeros(output);
 
         System.out.println("Input:");
         AssortedMethods.printMatrix(input);

@@ -1,4 +1,6 @@
-public class Q2 {
+package CH1.Q2;
+
+public class Question {
 
     /**
      * Reverses a string in place.

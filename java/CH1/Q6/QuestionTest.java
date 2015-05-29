@@ -1,9 +1,11 @@
+package CH1.Q6;
+
 import CtCILibrary.AssortedMethods;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Q6Test {
+public class QuestionTest {
 
     interface RotateMatrix90 {
         void rotate90(int[][] mat);
@@ -45,7 +47,7 @@ public class Q6Test {
 
     @Test
     public void testRotateMatrix90_InPlace() throws Exception {
-        testRotateMatrix90(Q6::rotateMatrix90_InPlace);
+        testRotateMatrix90(Question::rotateMatrix90_InPlace);
     }
 
 }
