@@ -11,8 +11,6 @@ import java.util.Stack;
  */
 public class StackMin extends Stack<StackMinNode> {
 
-    int[] array = new int[10];
-
     public void push(int value) {
         StackMinNode node = new StackMinNode(value, Math.min(value, min()));
         super.push(node);
