@@ -1,10 +1,10 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ReplaceSpacesInStringTest {
+public class Q5_ReplaceSpacesInStringTest {
 
     interface SpaceReplace {
         String spaceReplace(String str);
@@ -17,12 +17,12 @@ public class ReplaceSpacesInStringTest {
 
     @Test
     public void testReplaceStringSpaces() throws Exception {
-        testSpaceReplace(ReplaceSpacesInString::replaceStringSpaces);
+        testSpaceReplace(Q5_ReplaceSpacesInString::replaceStringSpaces);
     }
 
     @Test
     public void testReplaceStringSpaces_Easy() throws Exception {
-        testSpaceReplace(ReplaceSpacesInString::replaceStringSpaces_Easy);
+        testSpaceReplace(Q5_ReplaceSpacesInString::replaceStringSpaces_Easy);
     }
 
 }

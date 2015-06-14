@@ -1,6 +1,6 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
-public class ReverseString {
+public class Q2_ReverseString {
 
     /**
      * Reverses a string in place.

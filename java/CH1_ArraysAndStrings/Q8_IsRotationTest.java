@@ -1,10 +1,10 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class IsRotationTest {
+public class Q8_IsRotationTest {
 
     interface IsRotation {
         boolean isRotation(String a, String b);
@@ -17,12 +17,12 @@ public class IsRotationTest {
 
     @Test
     public void testIsRotation() {
-        testIsRotation(CH1.IsRotation::isRotation);
+        testIsRotation(Q8_IsRotation::isRotation);
     }
 
     @Test
     public void testIsRotation_Contains() {
-        testIsRotation(CH1.IsRotation::isRotation_Contains);
+        testIsRotation(Q8_IsRotation::isRotation_Contains);
     }
 
 }

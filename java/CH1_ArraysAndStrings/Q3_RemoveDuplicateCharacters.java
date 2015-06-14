@@ -1,9 +1,9 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class RemoveDuplicateCharacters {
+public class Q3_RemoveDuplicateCharacters {
 
 
     /**
@@ -56,7 +56,7 @@ public class RemoveDuplicateCharacters {
     }
 
     /**
-     * We can use the same method used in {@link RemoveDuplicateCharacters#isUniqueCharsSet(String)} to get O(n) time.
+     * We can use the same method used in {@link Q3_RemoveDuplicateCharacters#isUniqueCharsSet(String)} to get O(n) time.
      *
      * Time: O(n)
      * Space: O(n)

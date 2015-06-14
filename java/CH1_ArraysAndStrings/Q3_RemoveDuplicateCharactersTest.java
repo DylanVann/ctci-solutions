@@ -1,10 +1,10 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class RemoveDuplicateCharactersTest {
+public class Q3_RemoveDuplicateCharactersTest {
 
     /**
      * This is something I'll do often in my tests.
@@ -37,12 +37,12 @@ public class RemoveDuplicateCharactersTest {
 
     @Test
     public void testRemoveDuplicateCharacters() throws Exception {
-        testRemoveDuplicateCharacters(CH1.RemoveDuplicateCharacters::removeDuplicateCharacters);
+        testRemoveDuplicateCharacters(Q3_RemoveDuplicateCharacters::removeDuplicateCharacters);
     }
 
     @Test
     public void testRemoveDuplicateCharacters_Set() throws Exception {
-        testRemoveDuplicateCharacters(CH1.RemoveDuplicateCharacters::removeDuplicateCharacters_Set);
+        testRemoveDuplicateCharacters(Q3_RemoveDuplicateCharacters::removeDuplicateCharacters_Set);
     }
 
 }

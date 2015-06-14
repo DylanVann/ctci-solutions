@@ -1,6 +1,6 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
-public class RotateSquareMatrix90Degrees {
+public class Q6_RotateSquareMatrix90Degrees {
 
     /**
      * Rotates a square matrix 90 degrees in place. CCW.

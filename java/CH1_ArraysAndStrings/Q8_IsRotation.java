@@ -1,6 +1,6 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
-public class IsRotation {
+public class Q8_IsRotation {
 
     /**
      * Concatenates a copy of a to a, then checks if b is a substring.

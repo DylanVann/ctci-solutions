@@ -1,8 +1,8 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
 import java.util.Arrays;
 
-public class AreAnagrams {
+public class Q4_AreAnagrams {
 
 
     /**

@@ -1,6 +1,6 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
-public class ZeroRowsAndColumnsContainingZeros {
+public class Q7_ZeroRowsAndColumnsContainingZeros {
 
     /**
      * If an element in the matrix is zero, zero the entire row and column.

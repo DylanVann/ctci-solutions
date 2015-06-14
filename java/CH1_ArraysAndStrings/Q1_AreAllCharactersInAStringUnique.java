@@ -1,10 +1,9 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
-public class AreAllCharactersInAStringUnique {
+public class Q1_AreAllCharactersInAStringUnique {
 
     /**
      * Uses a boolean array to handle all ASCII characters.

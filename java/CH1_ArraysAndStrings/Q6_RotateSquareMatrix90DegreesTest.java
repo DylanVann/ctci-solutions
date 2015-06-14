@@ -1,11 +1,11 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
 import CtCILibrary.AssortedMethods;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class RotateSquareMatrix90DegreesTest {
+public class Q6_RotateSquareMatrix90DegreesTest {
 
     interface RotateMatrix90 {
         void rotate90(int[][] mat);
@@ -47,7 +47,7 @@ public class RotateSquareMatrix90DegreesTest {
 
     @Test
     public void testRotateMatrix90_InPlace() throws Exception {
-        testRotateMatrix90(RotateSquareMatrix90Degrees::rotateMatrix90_InPlace);
+        testRotateMatrix90(Q6_RotateSquareMatrix90Degrees::rotateMatrix90_InPlace);
     }
 
 }

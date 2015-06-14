@@ -1,11 +1,11 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
 import CtCILibrary.AssortedMethods;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ZeroRowsAndColumnsContainingZerosTest {
+public class Q7_ZeroRowsAndColumnsContainingZerosTest {
 
     @Test
     public void testSetZeros() throws Exception {
@@ -28,7 +28,7 @@ public class ZeroRowsAndColumnsContainingZerosTest {
                 {5,8,3,6}
         };
 
-        ZeroRowsAndColumnsContainingZeros.setZeros(output);
+        Q7_ZeroRowsAndColumnsContainingZeros.setZeros(output);
 
         System.out.println("Input:");
         AssortedMethods.printMatrix(input);

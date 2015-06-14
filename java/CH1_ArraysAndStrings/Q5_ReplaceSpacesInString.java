@@ -1,6 +1,6 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
-public class ReplaceSpacesInString {
+public class Q5_ReplaceSpacesInString {
 
     /**
      * Replaces spaces with %02.

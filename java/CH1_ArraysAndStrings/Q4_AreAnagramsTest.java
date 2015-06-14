@@ -1,10 +1,10 @@
-package CH1;
+package CH1_ArraysAndStrings;
 
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class AreAnagramsTest {
+public class Q4_AreAnagramsTest {
 
     interface AreAnagrams {
         boolean areAnagrams(String a, String b);
@@ -18,12 +18,12 @@ public class AreAnagramsTest {
 
     @Test
     public void testAreAnagrams_Sort() throws Exception {
-        testAreAnagrams(CH1.AreAnagrams::areAnagrams_Sort);
+        testAreAnagrams(Q4_AreAnagrams::areAnagrams_Sort);
     }
 
     @Test
     public void testAreAnagrams_Array() throws Exception {
-        testAreAnagrams(CH1.AreAnagrams::areAnagrams_Array);
+        testAreAnagrams(Q4_AreAnagrams::areAnagrams_Array);
     }
 
 }
