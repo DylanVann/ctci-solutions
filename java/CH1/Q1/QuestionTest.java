@@ -18,7 +18,8 @@ public class QuestionTest {
         // Doesn't handle other characters very well ಠ_ಠ.
         // Throws IndexOutOfBoundsException.
         exception.expect(ArrayIndexOutOfBoundsException.class);
-        assertEquals(false, Question.isUniqueChars("ಠ_ಠ"));
+        assertEquals(true, Question.isUniqueCharsBits("●︵•"));
+        assertNotEquals(false, Question.isUniqueCharsBits("ಠ_ಠ"));
     }
 
     @Test
