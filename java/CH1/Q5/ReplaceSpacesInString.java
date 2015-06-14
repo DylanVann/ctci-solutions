@@ -1,6 +1,6 @@
 package CH1.Q5;
 
-public class Question {
+public class ReplaceSpacesInString {
 
     /**
      * Replaces spaces with %02.

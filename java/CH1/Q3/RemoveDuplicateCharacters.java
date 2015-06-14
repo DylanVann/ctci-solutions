@@ -3,7 +3,7 @@ package CH1.Q3;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Question {
+public class RemoveDuplicateCharacters {
 
 
     /**
@@ -56,7 +56,7 @@ public class Question {
     }
 
     /**
-     * We can use the same method used in {@link Question#isUniqueCharsSet(String)} to get O(n) time.
+     * We can use the same method used in {@link RemoveDuplicateCharacters#isUniqueCharsSet(String)} to get O(n) time.
      *
      * Time: O(n)
      * Space: O(n)

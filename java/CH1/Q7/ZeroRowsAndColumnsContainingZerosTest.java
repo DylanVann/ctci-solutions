@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class QuestionTest {
+public class ZeroRowsAndColumnsContainingZerosTest {
 
     @Test
     public void testSetZeros() throws Exception {
@@ -28,7 +28,7 @@ public class QuestionTest {
                 {5,8,3,6}
         };
 
-        Question.setZeros(output);
+        ZeroRowsAndColumnsContainingZeros.setZeros(output);
 
         System.out.println("Input:");
         AssortedMethods.printMatrix(input);

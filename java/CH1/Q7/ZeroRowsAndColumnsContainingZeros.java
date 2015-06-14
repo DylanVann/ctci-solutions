@@ -1,6 +1,6 @@
 package CH1.Q7;
 
-public class Question {
+public class ZeroRowsAndColumnsContainingZeros {
 
     /**
      * If an element in the matrix is zero, zero the entire row and column.

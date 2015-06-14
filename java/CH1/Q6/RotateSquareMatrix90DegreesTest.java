@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class QuestionTest {
+public class RotateSquareMatrix90DegreesTest {
 
     interface RotateMatrix90 {
         void rotate90(int[][] mat);
@@ -47,7 +47,7 @@ public class QuestionTest {
 
     @Test
     public void testRotateMatrix90_InPlace() throws Exception {
-        testRotateMatrix90(Question::rotateMatrix90_InPlace);
+        testRotateMatrix90(RotateSquareMatrix90Degrees::rotateMatrix90_InPlace);
     }
 
 }

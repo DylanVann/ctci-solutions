@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class QuestionTest {
+public class RemoveDuplicateCharactersTest {
 
     /**
      * This is something I'll do often in my tests.
@@ -37,12 +37,12 @@ public class QuestionTest {
 
     @Test
     public void testRemoveDuplicateCharacters() throws Exception {
-        testRemoveDuplicateCharacters(Question::removeDuplicateCharacters);
+        testRemoveDuplicateCharacters(CH1.Q3.RemoveDuplicateCharacters::removeDuplicateCharacters);
     }
 
     @Test
     public void testRemoveDuplicateCharacters_Set() throws Exception {
-        testRemoveDuplicateCharacters(Question::removeDuplicateCharacters_Set);
+        testRemoveDuplicateCharacters(CH1.Q3.RemoveDuplicateCharacters::removeDuplicateCharacters_Set);
     }
 
 }

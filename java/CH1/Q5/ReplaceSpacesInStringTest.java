@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class QuestionTest {
+public class ReplaceSpacesInStringTest {
 
     interface SpaceReplace {
         String spaceReplace(String str);
@@ -17,12 +17,12 @@ public class QuestionTest {
 
     @Test
     public void testReplaceStringSpaces() throws Exception {
-        testSpaceReplace(Question::replaceStringSpaces);
+        testSpaceReplace(ReplaceSpacesInString::replaceStringSpaces);
     }
 
     @Test
     public void testReplaceStringSpaces_Easy() throws Exception {
-        testSpaceReplace(Question::replaceStringSpaces_Easy);
+        testSpaceReplace(ReplaceSpacesInString::replaceStringSpaces_Easy);
     }
 
 }

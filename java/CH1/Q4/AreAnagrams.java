@@ -2,7 +2,7 @@ package CH1.Q4;
 
 import java.util.Arrays;
 
-public class Question {
+public class AreAnagrams {
 
 
     /**

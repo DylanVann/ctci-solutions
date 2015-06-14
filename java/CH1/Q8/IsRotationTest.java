@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class QuestionTest {
+public class IsRotationTest {
 
     interface IsRotation {
         boolean isRotation(String a, String b);
@@ -17,12 +17,12 @@ public class QuestionTest {
 
     @Test
     public void testIsRotation() {
-        testIsRotation(Question::isRotation);
+        testIsRotation(CH1.Q8.IsRotation::isRotation);
     }
 
     @Test
     public void testIsRotation_Contains() {
-        testIsRotation(Question::isRotation_Contains);
+        testIsRotation(CH1.Q8.IsRotation::isRotation_Contains);
     }
 
 }

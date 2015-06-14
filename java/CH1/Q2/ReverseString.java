@@ -1,6 +1,6 @@
 package CH1.Q2;
 
-public class Question {
+public class ReverseString {
 
     /**
      * Reverses a string in place.

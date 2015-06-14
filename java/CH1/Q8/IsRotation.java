@@ -1,6 +1,6 @@
 package CH1.Q8;
 
-public class Question {
+public class IsRotation {
 
     /**
      * Concatenates a copy of a to a, then checks if b is a substring.

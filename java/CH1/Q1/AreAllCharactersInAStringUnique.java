@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Question {
+public class AreAllCharactersInAStringUnique {
 
     /**
      * Uses a boolean array to handle all ASCII characters.
