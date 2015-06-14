@@ -1,4 +1,4 @@
-package CH1.Q1;
+package CH1;
 
 import java.util.HashMap;
 import java.util.HashSet;

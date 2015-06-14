@@ -1,4 +1,4 @@
-package CH1.Q1;
+package CH1;
 
 import org.junit.Rule;
 import org.junit.Test;

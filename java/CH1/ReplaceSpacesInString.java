@@ -1,4 +1,4 @@
-package CH1.Q5;
+package CH1;
 
 public class ReplaceSpacesInString {
 

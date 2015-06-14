@@ -1,4 +1,4 @@
-package CH1.Q8;
+package CH1;
 
 import org.junit.Test;
 
@@ -17,12 +17,12 @@ public class IsRotationTest {
 
     @Test
     public void testIsRotation() {
-        testIsRotation(CH1.Q8.IsRotation::isRotation);
+        testIsRotation(CH1.IsRotation::isRotation);
     }
 
     @Test
     public void testIsRotation_Contains() {
-        testIsRotation(CH1.Q8.IsRotation::isRotation_Contains);
+        testIsRotation(CH1.IsRotation::isRotation_Contains);
     }
 
 }

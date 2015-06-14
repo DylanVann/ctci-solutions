@@ -1,4 +1,4 @@
-package CH1.Q4;
+package CH1;
 
 import org.junit.Test;
 
@@ -18,12 +18,12 @@ public class AreAnagramsTest {
 
     @Test
     public void testAreAnagrams_Sort() throws Exception {
-        testAreAnagrams(CH1.Q4.AreAnagrams::areAnagrams_Sort);
+        testAreAnagrams(CH1.AreAnagrams::areAnagrams_Sort);
     }
 
     @Test
     public void testAreAnagrams_Array() throws Exception {
-        testAreAnagrams(CH1.Q4.AreAnagrams::areAnagrams_Array);
+        testAreAnagrams(CH1.AreAnagrams::areAnagrams_Array);
     }
 
 }

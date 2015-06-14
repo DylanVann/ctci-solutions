@@ -1,4 +1,4 @@
-package CH1.Q7;
+package CH1;
 
 import CtCILibrary.AssortedMethods;
 import org.junit.Test;

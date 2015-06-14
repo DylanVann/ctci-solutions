@@ -1,4 +1,4 @@
-package CH1.Q3;
+package CH1;
 
 import org.junit.Test;
 
@@ -37,12 +37,12 @@ public class RemoveDuplicateCharactersTest {
 
     @Test
     public void testRemoveDuplicateCharacters() throws Exception {
-        testRemoveDuplicateCharacters(CH1.Q3.RemoveDuplicateCharacters::removeDuplicateCharacters);
+        testRemoveDuplicateCharacters(CH1.RemoveDuplicateCharacters::removeDuplicateCharacters);
     }
 
     @Test
     public void testRemoveDuplicateCharacters_Set() throws Exception {
-        testRemoveDuplicateCharacters(CH1.Q3.RemoveDuplicateCharacters::removeDuplicateCharacters_Set);
+        testRemoveDuplicateCharacters(CH1.RemoveDuplicateCharacters::removeDuplicateCharacters_Set);
     }
 
 }

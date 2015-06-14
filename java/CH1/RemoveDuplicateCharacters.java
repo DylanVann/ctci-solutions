@@ -1,4 +1,4 @@
-package CH1.Q3;
+package CH1;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package CH1.Q6;
+package CH1;
 
 public class RotateSquareMatrix90Degrees {
 

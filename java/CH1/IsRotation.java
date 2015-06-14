@@ -1,4 +1,4 @@
-package CH1.Q8;
+package CH1;
 
 public class IsRotation {
 

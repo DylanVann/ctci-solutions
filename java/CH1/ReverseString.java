@@ -1,4 +1,4 @@
-package CH1.Q2;
+package CH1;
 
 public class ReverseString {
 
