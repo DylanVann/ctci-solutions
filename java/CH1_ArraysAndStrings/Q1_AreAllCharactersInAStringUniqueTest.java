@@ -24,20 +24,20 @@ public class Q1_AreAllCharactersInAStringUniqueTest {
 
     @Test
     public void testIsUniqueCharsBits() {
-        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueCharsBits("True."));
-        assertEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueCharsBits("False..."));
+        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueChars_Bits("True."));
+        assertEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueChars_Bits("False..."));
         // Does not work for unicode characters.
-        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueCharsBits("●︵•"));
-        assertNotEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueCharsBits("ಠ_ಠ"));
+        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueChars_Bits("●︵•"));
+        assertNotEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueChars_Bits("ಠ_ಠ"));
     }
 
     @Test
     public void testIsUniqueCharsSet() {
-        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueCharsSet("True."));
-        assertEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueCharsSet("False..."));
+        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueChars_Set("True."));
+        assertEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueChars_Set("False..."));
         // Handles all unicode characters.
-        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueCharsSet("●︵•"));
-        assertEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueCharsSet("ಠ_ಠ"));
+        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueChars_Set("●︵•"));
+        assertEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueChars_Set("ಠ_ಠ"));
     }
 
 }

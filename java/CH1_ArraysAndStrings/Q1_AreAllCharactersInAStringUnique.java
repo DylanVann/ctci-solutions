@@ -47,7 +47,7 @@ public class Q1_AreAllCharactersInAStringUnique {
      * @param string String to check.
      * @return Are all the characters unique?
      */
-    public static boolean isUniqueCharsBits(String string) {
+    public static boolean isUniqueChars_Bits(String string) {
         int charSet = 0;
         for (int i = 0 ; i < string.length() ; i++) {
             int val = string.charAt(i) - 'a';
@@ -71,7 +71,7 @@ public class Q1_AreAllCharactersInAStringUnique {
      * @param string String to check.
      * @return Are all the characters unique?
      */
-    public static boolean isUniqueCharsSet(String string) {
+    public static boolean isUniqueChars_Set(String string) {
         Set<Character> foundChars = new HashSet<Character>();
         for (char c : string.toCharArray()) {
             if (foundChars.contains(c)) return false;
