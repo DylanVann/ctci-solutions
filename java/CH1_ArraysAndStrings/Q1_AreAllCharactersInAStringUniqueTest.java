@@ -18,8 +18,8 @@ public class Q1_AreAllCharactersInAStringUniqueTest {
         // Doesn't handle other characters very well ಠ_ಠ.
         // Throws IndexOutOfBoundsException.
         exception.expect(ArrayIndexOutOfBoundsException.class);
-        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueCharsBits("●︵•"));
-        assertNotEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueCharsBits("ಠ_ಠ"));
+        assertEquals(true, Q1_AreAllCharactersInAStringUnique.isUniqueChars("●︵•"));
+        assertNotEquals(false, Q1_AreAllCharactersInAStringUnique.isUniqueChars("ಠ_ಠ"));
     }
 
     @Test
