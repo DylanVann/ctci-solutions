@@ -6,6 +6,7 @@ public class Question {
      * Reverses a string in place.
      * It has to create a new string object to return anyways though.
      * Reversing a string in place is a useful technique if your string representation is mutable.
+     *
      * @param string The string to be reversed.
      * @return The reversed string.
      */
